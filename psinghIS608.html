@@ -117,6 +117,38 @@
 						   		return "#ccc";
 					   		} 		
 					});
+					//create legend
+					var legend = svg.selectAll('g.legendEntry')
+    					.data(color.range())
+    					.enter()
+    					.append('g').attr('class', 'legendEntry');
+
+					legend
+    					.append('rect')
+    					.attr("x", w - 800)
+    					.attr("y", function(d, i) {
+       					return ((i * 20)+150);
+    					})
+   						.attr("width", 20)
+   						.attr("height", 20)
+   						.style("stroke", "black")
+   						.style("stroke-width", 1)
+   						.style("fill", function(d){return d;}); 
+
+					legend
+    					.append('text')
+    					.attr("x", w - 775)
+    					.attr("font-size", 15)
+    					.attr("font-family", 'Helvetica')
+    					.attr("y", function(d, i) {
+       						return ((i * 20)+150);
+    					})
+    					.attr("dy", "0.9em")
+    					.text(function(d,i) {
+        					var extent = color.invertExtent(d);
+        					var format = d3.format("0.0f");
+        					return format(+extent[0]) + " - " + format(+extent[1]);
+	    				});
 			
 				});
 			
@@ -150,7 +182,7 @@
 			<br><br><br>
 			<b>Data Sources</b><br><br>
 			Data is sourced from primarily two locations: the raw median sales data is sourced from Zillow’s Public research set, 
-			and the GeoJSON map is sources from catalog.opendata.city.
+			and the GeoJSON map is sourced from catalog.opendata.city.
 		</div>
 	</body>
 </html>
