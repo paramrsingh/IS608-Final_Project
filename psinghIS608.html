@@ -17,7 +17,7 @@
       		z-index: 2;
       		background: rgba(99,99,99,1);
       		width:130px;
-      		height:20px;
+      		height:50px;
       		color:white;
       		font-size: 12px;
       		padding:5px;
@@ -52,7 +52,7 @@
     			var div = document.getElementById('tooltip');
     			div.style.left = event.pageX +'px';
     			div.style.top = event.pageY + 'px';
-    			div.innerHTML = d.properties.neighborhood;
+    			div.innerHTML = d.properties.neighborhood + "<br>$" + d.properties.valueone;
   			};
   							
   			//Define path generator

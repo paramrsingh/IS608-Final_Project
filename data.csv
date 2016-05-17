@@ -2,25 +2,25 @@ nhood,valueone
 Upper West Side,1007775
 Upper East Side,884250
 East New York,300808
-Washington Heights,527716.6
+Washington Heights,527716
 Astoria,434156
 Williamsburg,867950
-Bedford Stuyvesant,749588.2353
+Bedford Stuyvesant,749588
 Flatbush,442125
 Crown Heights,675000
 Jamaica,337040
 Harlem,726400
 Williamsbridge,
-East Harlem,700588.2353
+East Harlem,700588
 Bushwick,
 East Flatbush,665700
 Corona,190000
-Sunset Park,367058.8235
+Sunset Park,367058
 Borough Park,672266
 Elmhurst,287250
-Bensonhurst,573461.5385
+Bensonhurst,573461
 Lower East Side,679650
-Canarsie,439076.9231
+Canarsie,439076
 Flushing,341200
 South Ozone Park,377750
 Murray Hill,430650
@@ -32,7 +32,7 @@ Far Rockaway,
 East Elmhurst,469050
 Jackson Heights,263950
 Midwood,634875
-Flatlands,417307.6923
+Flatlands,417307
 Ozone Park,434520
 Queens Village,422000
 Park Slope,964250
@@ -50,7 +50,7 @@ Sunnyside,327275
 Greenwich Village,962000
 Coney Island,360000
 Rego Park,252200
-Morningside Heights,618823.5294
+Morningside Heights,618823
 Kew Gardens Hills,199700
 Parkchester,111650
 Ocean Parkway,430000
@@ -71,13 +71,13 @@ Glendale,502000
 Middle Village,614750
 Homecrest,405000
 Bellerose,451750
-Fort Hamilton,316617.6471
+Fort Hamilton,316617
 Clinton,975769.2308
 Financial District,833500
 Briarwood,163461.5385
 Brighton Beach,406923.0769
 Auburndale,666529.4118
-Flatiron District,1308447.7
+Flatiron District,1308447
 Laurelton,
 Pelham Gardens,
 Rosedale,
@@ -93,10 +93,10 @@ Fresh Meadows,677888
 Oakland Gardens,227875
 West Village,984600
 Kew Gardens,215750
-Brooklyn Heights,913719.5
-Columbus Circle,762006.95
+Brooklyn Heights,913719
+Columbus Circle,762006
 Sutton Place,783950
-West Brighton,408176.4706
+West Brighton,408176
 Wingate,
 Heartland Village,334495
 Gowanus,
@@ -106,11 +106,11 @@ Midtown,1094550
 Port Richmond,
 Baychester,
 Tribeca,2995250
-Spuyten Duyvil,277941.1765
+Spuyten Duyvil,277941
 Carnegie Hill,2320000
 Rockaway Park,
 Tudor City,537900
-Battery Park,829615.3846
+Battery Park,829615
 Cambria Heights,410000
 Hillcrest,
 Arden Heights,357000
@@ -135,7 +135,7 @@ Graniteville,
 Meiers Corners,
 Georgetown,1010500
 SoHo,1638461.539
-Hunters Point,792692.3077
+Hunters Point,792692
 Park Hill,
 Brookville,
 Chinatown,
@@ -152,7 +152,7 @@ Greenridge,369950
 Little Italy,
 South Beach,
 Grymes Hill,
-Windsor Terrace,740407.6923
+Windsor Terrace,740407
 Rockaway Beach,
 Castleton Corners,
 Arrochar,
@@ -177,5 +177,5 @@ New Dorp Beach,
 DUMBO,
 Elm Park,
 Broad Channel,840000
-Charleston,1028061.539
+Charleston,1028061
 Willowbrook,435000
